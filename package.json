@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:second": "yarn --cwd packages/secondSample build",
+    "start:second": "yarn --cwd packages/secondSample start",
+
+    "test": "tsc -p . --noEmit --watch"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "@types/node": "^12.0.0",
+    "@babel/core": "^7.12.0",
+    "@types/styled-components": "^5.1.22",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "babel-plugin-styled-components": "^2.0.5",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^2.0.0",
+    "prettier": "^2.6.2",
+    "react-hot-loader": "^4.12.19"
+  },
+  "alias": {
+    "process": false
+  },
+  "resolutions": {
+    "styled-components": "^5",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

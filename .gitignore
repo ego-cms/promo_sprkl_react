@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+.parcel-cache
+/packages/firstSample/dist
+/packages/secondSample/dist
+/packages/sprkl/node_modules
+
+# misc
+.idea

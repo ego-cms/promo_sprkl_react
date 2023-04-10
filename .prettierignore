@@ -1,0 +1,7 @@
+.parcel-cache
+.idea
+/packages/secondSample/dist
+/packages/secondSample/node_modules
+/packages/firstSample/dist
+/packages/sprkl/node_modules
+

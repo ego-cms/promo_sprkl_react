@@ -1,0 +1,112 @@
+import React from 'react'
+import { BoxLayout, SmallPatientIcon, Styles, Table } from '../../../elements'
+import { Avatar, BodyText, Box, HeadlineText, LabelText } from 'sprkl'
+import avatar1 from '../../../assets/avatar1.png'
+import avatar2 from '../../../assets/avatar2.png'
+import avatar3 from '../../../assets/avatar3.png'
+import avatar4 from '../../../assets/avatar4.png'
+import avatar5 from '../../../assets/avatar5.png'
+import avatar6 from '../../../assets/avatar6.png'
+import { useTypedSelector } from '../../../store'
+
+export const PatientList = () => {
+  const patientsList = useTypedSelector(state => state.patientsList)
+  const resolution = useTypedSelector(state => state.resolution)
+  const isMobile = resolution === 'mobile'
+
+  const imgMatrix = {
+    avatar1,
+    avatar2,
+    avatar3,
+    avatar4,
+    avatar5,
+    avatar6,
+  }
+
+  const data = patientsList.map(item => ({
+    name: item.name,
+    avatar: imgMatrix[item.img],
+    diagnosis: item.appointments.diagnose,
+    id: item.id,
+    type: item.bloodType,
+  }))
+
+  const columns = [
+    {
+      Header: (
+        <LabelText color="neutrals900" type="s">
+          Name
+        </LabelText>
+      ),
+      accessor: 'name',
+    },
+    {
+      Header: (
+        <LabelText color="neutrals900" type="s">
+          Diagnosis
+        </LabelText>
+      ),
+      accessor: 'diagnosis',
+    },
+    {
+      Header: (
+        <LabelText color="neutrals900" type="s">
+          Blood type
+        </LabelText>
+      ),
+      accessor: 'type',
+    },
+  ]
+
+  const tableData = data.map(({ name, avatar, type, diagnosis, id }) => ({
+    name: (
+      <Box alignItems="center">
+        <Avatar margin="0 xs 0 0" color="white100" type="picture" background="primary600" size="xxxs" border="circular">
+          <img style={{ height: '102%', width: '100%', objectFit: 'cover' }} src={avatar} />
+        </Avatar>
+        <BodyText type="s">{name}</BodyText>
+      </Box>
+    ),
+    diagnosis: (
+      <BodyText color="neutrals500" type="s">
+        {diagnosis}
+      </BodyText>
+    ),
+    type: (
+      <BodyText color="neutrals500" type="s">
+        {type}
+      </BodyText>
+    ),
+    id: String(id),
+  }))
+
+  return (
+    <BoxLayout gridColumn={isMobile ? '1/5' : '1/3'}>
+      <Box alignItems="center" position="relative" margin="0 0 xl 0">
+        <Box
+          alignItems="center"
+          justifyContent="center"
+          margin="0 s 0 0"
+          borderRadius="m"
+          height="32px"
+          width="32px"
+          background="info100"
+        >
+          <SmallPatientIcon />
+        </Box>
+        <Box>
+          <HeadlineText margin="0 xs 0 0" type="xxs">
+            Patients list
+          </HeadlineText>
+          <HeadlineText color="neutrals400" type="xxs">
+            ({data.length})
+          </HeadlineText>
+        </Box>
+      </Box>
+
+      <Styles>
+        <Table columns={columns} data={tableData} />
+      </Styles>
+    </BoxLayout>
+  )
+}
