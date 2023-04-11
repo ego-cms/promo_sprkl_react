@@ -21,6 +21,6 @@
   },
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build src/index.tsx --no-source-maps"
+    "build": "parcel build ./src/index.html --no-source-maps"
   }
 }
