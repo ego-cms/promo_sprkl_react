@@ -37,14 +37,14 @@ You can use it out of the box, or create your own project. There are TheSprkll U
 
 ```yaml
   "react": "^17.0.2",
-   "react-dom": "^17.0.2",
-   "react-router-dom": "^6.4.2",
-   "styled-components": "^5.3.6",
-   "react-device-detect": "^2.2.2",
-   "use-react-router-breadcrumbs": "^4.0.1"
+             "react-dom": "^17.0.2",
+             "react-router-dom": "^6.4.2",
+             "styled-components": "^5.3.6",
+             "react-device-detect": "^2.2.2",
+             "use-react-router-breadcrumbs": "^4.0.1"
  ```
 
-If you decide to use yarn workspaces you need to clone that repo and type: 
+If you decide to use yarn workspaces you need to clone that repo and type:
 ```yaml
   yarn
 ```
@@ -59,7 +59,7 @@ TheSprkl theme setup is built on
 ```
 package. TheSprkl theme has set up colors and text styles used by TheSprkl components.
 
-You have object: 
+You have object:
 ```yaml
     primary900: primaryColor || '#421C86',
     primary800: primaryColor ? hexToRgbaToRgb(primaryColor, 0.9) : '#501FA8',
@@ -71,7 +71,7 @@ You have object:
     primary200: primaryColor ? hexToRgbaToRgb(primaryColor, 0.3) : '#D8D0FC',
     primary100: primaryColor ? hexToRgbaToRgb(primaryColor, 0.2) : '#EAE6FD',
     primary50: primaryColor ? hexToRgbaToRgb(primaryColor, 0.15) : '#F3F1FE',
-  
+
     accent900: accentColor || '#77193A',
     accent800: accentColor ? hexToRgbaToRgb(accentColor, 0.9) : '#921943',
     accent700: accentColor ? hexToRgbaToRgb(accentColor, 0.8) : '#B51A52',
@@ -82,7 +82,7 @@ You have object:
     accent200: accentColor ? hexToRgbaToRgb(accentColor, 0.3) : '#FAC9E4',
     accent100: accentColor ? hexToRgbaToRgb(accentColor, 0.2) : '#FBE4F1',
     accent50: accentColor ? hexToRgbaToRgb(accentColor, 0.15) : '#FDF0F7',
-  
+
     neutrals900: neutralsColor || '#111827',
     neutrals800: neutralsColor ? hexToRgbaToRgb(neutralsColor, 0.9) : '#1F2937',
     neutrals700: neutralsColor ? hexToRgbaToRgb(neutralsColor, 0.8) : '#374151',
@@ -93,7 +93,7 @@ You have object:
     neutrals200: neutralsColor ? hexToRgbaToRgb(neutralsColor, 0.3) : '#E5E7EB',
     neutrals100: neutralsColor ? hexToRgbaToRgb(neutralsColor, 0.2) : '#F3F4F6',
     neutrals50: neutralsColor ? hexToRgbaToRgb(neutralsColor, 0.15) : '#F9FAFB',
-  
+
     error900: errorColor || '#7F1D1D',
     error800: errorColor ? hexToRgbaToRgb(errorColor, 0.9) : '#991B1B',
     error700: errorColor ? hexToRgbaToRgb(errorColor, 0.8) : '#B91C1C',
@@ -104,7 +104,7 @@ You have object:
     error200: errorColor ? hexToRgbaToRgb(errorColor, 0.3) : '#FECACA',
     error100: errorColor ? hexToRgbaToRgb(errorColor, 0.2) : '#FEE2E2',
     error50: errorColor ? hexToRgbaToRgb(errorColor, 0.15) : '#FEF2F2',
-  
+
     warning900: warningColor || '#7C2D12',
     warning800: warningColor ? hexToRgbaToRgb(warningColor, 0.9) : '#9A3412',
     warning700: warningColor ? hexToRgbaToRgb(warningColor, 0.8) : '#C2410C',
@@ -115,7 +115,7 @@ You have object:
     warning200: warningColor ? hexToRgbaToRgb(warningColor, 0.3) : '#FED7AA',
     warning100: warningColor ? hexToRgbaToRgb(warningColor, 0.2) : '#FFEDD5',
     warning50: warningColor ? hexToRgbaToRgb(warningColor, 0.15) : '#FFF7ED',
-  
+
     success900: successColor || '#14532D',
     success800: successColor ? hexToRgbaToRgb(successColor, 0.9) : '#166534',
     success700: successColor ? hexToRgbaToRgb(successColor, 0.8) : '#15803D',
@@ -126,7 +126,7 @@ You have object:
     success200: successColor ? hexToRgbaToRgb(successColor, 0.3) : '#BBF7D0',
     success100: successColor ? hexToRgbaToRgb(successColor, 0.2) : '#DCFCE7',
     success50: successColor ? hexToRgbaToRgb(successColor, 0.15) : '#DCFCE7',
-  
+
     info900: infoColor || '#1E3A8A',
     info800: infoColor ? hexToRgbaToRgb(infoColor, 0.9) : '#1E40AF',
     info700: infoColor ? hexToRgbaToRgb(infoColor, 0.8) : '#1D4ED8',
@@ -137,7 +137,7 @@ You have object:
     info200: infoColor ? hexToRgbaToRgb(infoColor, 0.3) : '#BFDBFE',
     info100: infoColor ? hexToRgbaToRgb(infoColor, 0.2) : '#DBEAFE',
     info50: infoColor ? hexToRgbaToRgb(infoColor, 0.15) : '#EFF6FF',
-  
+
     black100: 'rgba(0 0 0)',
     black88: 'rgba(0 0 0 / 88%)',
     black80: 'rgba(0 0 0 / 80%)',
@@ -150,7 +150,7 @@ You have object:
     black24: 'rgba(0 0 0 / 24%)',
     black16: 'rgba(0 0 0 / 16%)',
     black8: 'rgba(0 0 0 / 8%)',
-  
+
     white100: 'rgba(255 255 255)',
     white88: 'rgba(255 255 255 / 88%)',
     white80: 'rgba(255 255 255 / 80%)',
@@ -163,89 +163,89 @@ You have object:
     white24: 'rgba(255 255 255 / 24%)',
     white16: 'rgba(255 255 255 / 16%)',
     white8: 'rgba(255 255 255 / 8%)',
-  },
-  
-  spacings: {
-    z: '0',
-    xxs: '2px',
-    xs: '4px',
-    s: '8px',
-    m: '12px',
-    l: '16px',
-    xl: '24px',
-    xxl: '48px',
-    xxxl: '64px',
-  },
-  
-  corners: {
-    s: '4px',
-    m: '6px',
-    l: '8px',
-    xl: '16px',
-    round: '10000px',
-  },
-  
-  bodyText: {
-    l: 'font-size: 1.25rem; line-height: 1.2;',
-    m: 'font-size: 1rem;',
-    s: 'font-size: 0.875rem; letter-spacing: 0rem;',
-    ...bodyTextStyles,
-  },
-  headlineText: {
-    l: 'font-size: 3.5rem; letter-spacing: -0.125rem; line-height: 1.1;',
-    xl: 'font-size: 3rem; letter-spacing: -0.08125rem; line-height: 1.1;',
-    m: 'font-size: 2rem; letter-spacing: -0.05rem;',
-    s: 'font-size: 1.75rem; letter-spacing: -0.025rem;',
-    xs: 'font-size: 1.5rem; letter-spacing: -0.015rem;',
-    xxs: 'font-size: 1.25rem; letter-spacing: -0.015rem;',
-    ...headlineTextStyles,
-  },
-  labelText: { m: 'font-size: 1rem;', s: 'font-size: 0.875rem;', ...labelTextStyle },
-  supportText: {
-    quote:
-            'font-family: IBM Plex Sans; font-style: normal; font-weight: 700; font-size: 32px; line-height: 38px; letter-spacing: -0.24px;',
-    overline:
-            'font-family: IBM Plex Sans; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; text-transform: uppercase',
-    caption:
-            'font-family: Inter; font-style: normal; font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: -0.24px',
-                 ...supportTextStyle,
-  },
+    },
 
-  primaryButton: {
-    xl: 'padding: 0 23px; height: 56px;',
-    l: 'padding: 0 18px; height: 48px;',
-    m: 'padding: 0 16px; height: 40px;',
-    s: 'padding: 0 11px; height: 32px;',
-                   ...primaryButtonStyle,
-  },
-   ghostButton: {
-     xl: 'padding: 0 23px; height: 56px;',
-     l: 'padding: 0 18px; height: 48px;',
-     m: 'padding: 0 16px; height: 40px;',
-     s: 'padding: 0 11px; height: 32px;',
-                  ...ghostButton,
-   },
-   outlineButton: {
-     xl: 'padding: 0 23px; height: 56px;',
-     l: 'padding: 0 18px; height: 48px;',
-     m: 'padding: 0 16px; height: 40px;',
-     s: 'padding: 0 11px; height: 32px;',
-                    ...outlineButton,
-   },
-   secondaryButton: {
-     xl: 'padding: 0 23px; height: 56px;',
-     l: 'padding: 0 18px; height: 48px;',
-     m: 'padding: 0 16px; height: 40px;',
-     s: 'padding: 0 11px; height: 32px;',
-                      ...secondaryButton,
-   },
-   tertiaryButton: {
-     xl: 'padding: 0 23px; height: 56px;',
-     l: 'padding: 0 18px; height: 48px;',
-     m: 'padding: 0 16px; height: 40px;',
-     s: 'padding: 0 11px; height: 32px;',
-                     ...tertiaryButton,
-   },
+    spacings: {
+      z: '0',
+      xxs: '2px',
+      xs: '4px',
+      s: '8px',
+      m: '12px',
+      l: '16px',
+      xl: '24px',
+      xxl: '48px',
+      xxxl: '64px',
+    },
+
+    corners: {
+      s: '4px',
+      m: '6px',
+      l: '8px',
+      xl: '16px',
+      round: '10000px',
+    },
+
+    bodyText: {
+      l: 'font-size: 1.25rem; line-height: 1.2;',
+      m: 'font-size: 1rem;',
+      s: 'font-size: 0.875rem; letter-spacing: 0rem;',
+                ...bodyTextStyles,
+    },
+    headlineText: {
+      l: 'font-size: 3.5rem; letter-spacing: -0.125rem; line-height: 1.1;',
+      xl: 'font-size: 3rem; letter-spacing: -0.08125rem; line-height: 1.1;',
+      m: 'font-size: 2rem; letter-spacing: -0.05rem;',
+      s: 'font-size: 1.75rem; letter-spacing: -0.025rem;',
+      xs: 'font-size: 1.5rem; letter-spacing: -0.015rem;',
+      xxs: 'font-size: 1.25rem; letter-spacing: -0.015rem;',
+                    ...headlineTextStyles,
+    },
+    labelText: { m: 'font-size: 1rem;', s: 'font-size: 0.875rem;', ...labelTextStyle },
+    supportText: {
+      quote:
+              'font-family: IBM Plex Sans; font-style: normal; font-weight: 700; font-size: 32px; line-height: 38px; letter-spacing: -0.24px;',
+      overline:
+              'font-family: IBM Plex Sans; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; text-transform: uppercase',
+      caption:
+              'font-family: Inter; font-style: normal; font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: -0.24px',
+                   ...supportTextStyle,
+    },
+
+    primaryButton: {
+      xl: 'padding: 0 23px; height: 56px;',
+      l: 'padding: 0 18px; height: 48px;',
+      m: 'padding: 0 16px; height: 40px;',
+      s: 'padding: 0 11px; height: 32px;',
+                     ...primaryButtonStyle,
+    },
+    ghostButton: {
+      xl: 'padding: 0 23px; height: 56px;',
+      l: 'padding: 0 18px; height: 48px;',
+      m: 'padding: 0 16px; height: 40px;',
+      s: 'padding: 0 11px; height: 32px;',
+                   ...ghostButton,
+    },
+    outlineButton: {
+      xl: 'padding: 0 23px; height: 56px;',
+      l: 'padding: 0 18px; height: 48px;',
+      m: 'padding: 0 16px; height: 40px;',
+      s: 'padding: 0 11px; height: 32px;',
+                     ...outlineButton,
+    },
+    secondaryButton: {
+      xl: 'padding: 0 23px; height: 56px;',
+      l: 'padding: 0 18px; height: 48px;',
+      m: 'padding: 0 16px; height: 40px;',
+      s: 'padding: 0 11px; height: 32px;',
+                       ...secondaryButton,
+    },
+    tertiaryButton: {
+      xl: 'padding: 0 23px; height: 56px;',
+      l: 'padding: 0 18px; height: 48px;',
+      m: 'padding: 0 16px; height: 40px;',
+      s: 'padding: 0 11px; height: 32px;',
+                      ...tertiaryButton,
+    },
 ```
 
 You can provide colors to generate a palette from one color.
@@ -253,29 +253,29 @@ You can provide colors to generate a palette from one color.
 Here is how it looks like:
 ```yaml
   <Theme
-    primaryColor="#8B5CF6"
-    accentColor="#34D399"
-    warningColor="#F43E5E"
-    infoColor="#0EA5E9"
-    neutrals900="#0EA5E9"
-    error900="#0EA5E9"
-    success900="#0EA5E9"
+  primaryColor="#8B5CF6"
+  accentColor="#34D399"
+  warningColor="#F43E5E"
+  infoColor="#0EA5E9"
+  neutrals900="#0EA5E9"
+  error900="#0EA5E9"
+  success900="#0EA5E9"
   >
-    <App />
+  <App />
   </Theme>
 ```
 
 To use colors you need to provide a color as a string
 ````yaml
   <PrimaryButton background='accent900'>
-    Sign up
+  Sign up
   </PrimaryButton>
 ````
 
 Or you can provide your own color:
 ````yaml
   <PrimaryButton background='red'>
-    Sign up
+  Sign up
   </PrimaryButton>
 ````
 
@@ -284,11 +284,11 @@ You can create your own style types of objects or overwrite the existing ones
 Text:
 ```yaml
   bodyText: {
-    l: 'font-size: 1.25rem; line-height: 1.2;',
-    m: 'font-size: 1rem;',
-    s: 'font-size: 0.875rem; letter-spacing: 0rem;',
-    ...bodyTextStyles,
-  },
+  l: 'font-size: 1.25rem; line-height: 1.2;',
+  m: 'font-size: 1rem;',
+  s: 'font-size: 0.875rem; letter-spacing: 0rem;',
+              ...bodyTextStyles,
+},
   headlineText: {
     l: 'font-size: 3.5rem; letter-spacing: -0.125rem; line-height: 1.1;',
     xl: 'font-size: 3rem; letter-spacing: -0.08125rem; line-height: 1.1;',
@@ -298,7 +298,7 @@ Text:
     xxs: 'font-size: 1.25rem; letter-spacing: -0.015rem;',
     xxxs: 'font-size: 18px; line-height: 22px; letter-spacing: -0.24px;',
     xxxxs: 'font-size: 14px; line-height: 20px; letter-spacing: -0.2px;',
-    ...headlineTextStyles,
+                  ...headlineTextStyles,
   },
   labelText: { m: 'font-size: 1rem;', s: 'font-size: 0.875rem;', ...labelTextStyle },
   supportText: {
@@ -310,7 +310,7 @@ Text:
             'font-family: Inter; font-style: normal; font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: -0.24px',
                  ...supportTextStyle,
   },
-  
+
   primaryButton: {
     xl: 'padding: 0 23px; height: 56px;',
     l: 'padding: 0 18px; height: 48px;',
@@ -319,47 +319,47 @@ Text:
                    ...primaryButtonStyle,
   },
   ghostButton: {
-   xl: 'padding: 0 23px; height: 56px;',
-   l: 'padding: 0 18px; height: 48px;',
-   m: 'padding: 0 16px; height: 40px;',
-   s: 'padding: 0 11px; height: 32px;',
-                ...ghostButton,
+    xl: 'padding: 0 23px; height: 56px;',
+    l: 'padding: 0 18px; height: 48px;',
+    m: 'padding: 0 16px; height: 40px;',
+    s: 'padding: 0 11px; height: 32px;',
+                 ...ghostButton,
   },
   outlineButton: {
-   xl: 'padding: 0 23px; height: 56px;',
-   l: 'padding: 0 18px; height: 48px;',
-   m: 'padding: 0 16px; height: 40px;',
-   s: 'padding: 0 11px; height: 32px;',
-                  ...outlineButton,
+    xl: 'padding: 0 23px; height: 56px;',
+    l: 'padding: 0 18px; height: 48px;',
+    m: 'padding: 0 16px; height: 40px;',
+    s: 'padding: 0 11px; height: 32px;',
+                   ...outlineButton,
   },
   secondaryButton: {
-   xl: 'padding: 0 23px; height: 56px;',
-   l: 'padding: 0 18px; height: 48px;',
-   m: 'padding: 0 16px; height: 40px;',
-   s: 'padding: 0 11px; height: 32px;',
-                    ...secondaryButton,
+    xl: 'padding: 0 23px; height: 56px;',
+    l: 'padding: 0 18px; height: 48px;',
+    m: 'padding: 0 16px; height: 40px;',
+    s: 'padding: 0 11px; height: 32px;',
+                     ...secondaryButton,
   },
   tertiaryButton: {
-   xl: 'padding: 0 23px; height: 56px;',
-   l: 'padding: 0 18px; height: 48px;',
-   m: 'padding: 0 16px; height: 40px;',
-   s: 'padding: 0 11px; height: 32px;',
-                   ...tertiaryButton,
+    xl: 'padding: 0 23px; height: 56px;',
+    l: 'padding: 0 18px; height: 48px;',
+    m: 'padding: 0 16px; height: 40px;',
+    s: 'padding: 0 11px; height: 32px;',
+                    ...tertiaryButton,
   },
 ````
 
 There is usage:
 ````yaml
   <Theme
-    bodyTextStyles={{ red: 'color: red' }}
-    tertiaryButton={{ red: 'color: red' }}
+  bodyTextStyles={{ red: 'color: red' }}
+  tertiaryButton={{ red: 'color: red' }}
     primaryColor="#8B5CF6"
     accentColor="#34D399"
     warningColor="#F43E5E"
     infoColor="#0EA5E9"
-  >
+    >
     <App />
-  </Theme>
+    </Theme>
 ````
 
 Now you have a new type in the <BodyText/> component. To use it you need to provide the name of that object in the type of the property
@@ -372,15 +372,15 @@ Now you have a new type in the <BodyText/> component. To use it you need to prov
 to overwrite the existing:
 ````yaml
   <Theme
-    bodyTextStyles={{ m: 'color: red' }}
-    tertiaryButton={{ m: 'color: red' }}
+  bodyTextStyles={{ m: 'color: red' }}
+  tertiaryButton={{ m: 'color: red' }}
     primaryColor="#8B5CF6"
     accentColor="#34D399"
     warningColor="#F43E5E"
     infoColor="#0EA5E9"
-  >
+    >
     <App />
-  </Theme>
+    </Theme>
 ````
 
 Now default type "m" is overwritten:
@@ -392,17 +392,17 @@ Now default type "m" is overwritten:
 Also, you have preset margins and corners:
 ````yaml
   spacings: {
-    z: '0',
-    xxs: '2px',
-    xs: '4px',
-    s: '8px',
-    m: '12px',
-    l: '16px',
-    xl: '24px',
-    xxl: '48px',
-    xxxl: '64px',
-  },
-   corners: {
+  z: '0',
+  xxs: '2px',
+  xs: '4px',
+  s: '8px',
+  m: '12px',
+  l: '16px',
+  xl: '24px',
+  xxl: '48px',
+  xxxl: '64px',
+},
+  corners: {
     s: '4px',
     m: '6px',
     l: '8px',
@@ -414,7 +414,7 @@ Also, you have preset margins and corners:
 You can use them when providing margins or padding and border-radius in components. Also, you can combine letters and px. Example:
 ````yaml
   <PrimaryButton borderRadius='l' margin="l 10px" size="m" width="100%">
-    Sign up
+  Sign up
   </PrimaryButton>
 ````
 
@@ -425,12 +425,12 @@ You can use them when providing margins or padding and border-radius in componen
 cornersType represents object or string (any value - example: 'l' or '10px')
 ````yaml
 corners: {
-      s: '4px',
-      m: '6px',
-      l: '8px',
-      xl: '16px',
-      round: '10000px',
-    },
+  s: '4px',
+  m: '6px',
+  l: '8px',
+  xl: '16px',
+  round: '10000px',
+},
 ````
 
 colorsType represents object or string (any color - example: 'primary900' or '#ffff')
@@ -538,23 +538,23 @@ colorsType represents object or string (any color - example: 'primary900' or '#f
     white24: 'rgba(255 255 255 / 24%)',
     white16: 'rgba(255 255 255 / 16%)',
     white8: 'rgba(255 255 255 / 8%)',
-    },
+},
 ````
 
 spacingsType represents object or string (example:'l' or '10px' or 'l 10px')
 
 ````yaml
 spacings: {
-    z: '0',
-    xxs: '2px',
-    xs: '4px',
-    s: '8px',
-    m: '12px',
-    l: '16px',
-    xl: '24px',
-    xxl: '48px',
-    xxxl: '64px',
-  },
+  z: '0',
+  xxs: '2px',
+  xs: '4px',
+  s: '8px',
+  m: '12px',
+  l: '16px',
+  xl: '24px',
+  xxl: '48px',
+  xxxl: '64px',
+},
 ````
 
 All props with CSS mark accept string which represents CSS property
@@ -563,6 +563,108 @@ example:
 ````yamal
   <BodyText widht='100px'>100px width text</BodyText>
 ````
+
+### Alert
+
+An alert is a notification providing important information about the state of applications or devices, actions result and often triggers a communication request. It may contain a title, an optional message, and one or more parts.
+
+Alerts may contain text. Its length varies depending on the device, fonts, margins and padding. If the text is too long, it can be split and shown in preview mode, where the first part will be split up with “…“ and the other part will be hidden.
+
+```yaml
+  type(type of the alert): 'info' | 'success' | 'error' | 'warning' - required
+  subType(subType of the alert): 'default' | 'withDescription' | 'simple' - required
+    
+  margin?: spacingsType - css
+  padding?: spacingsType - css
+  width?: string (100%) - css
+  background?: colorsType (none) - css
+  color(text color)?: colorsType (depends on type) - css
+  
+  title(title of the alert)?: string
+  onClick(onClick on cross)?: any
+  description(description of the alert)?: string
+```
+
+
+#### Info default
+```yaml
+  <Alert type="info" subType="default" title="title" />
+```
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/96983515/228543850-93862572-2edf-4162-babf-7ea3df92bcef.png">
+
+#### Info with description
+```yaml
+  <Alert type="info" subType="withDescription" title="title" description="description" />
+```
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/96983515/228544148-6b76bfd2-e1b2-4c23-9a12-313ffd9ad25d.png">
+
+#### Info simple
+```yaml
+  <Alert type="info" subType="simple" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228544324-cc331ab0-881b-41fd-a643-8e6a0f6114f1.png">
+
+#### Success default
+```yaml
+  <Alert type="success" subType="default" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228548116-ba835266-3a58-4ff5-9da7-41651b51067a.png">
+
+
+#### Success with description
+```yaml
+  <Alert type="success" subType="withDescription" title="title" description="description" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228547722-57708942-8f65-4ff0-884f-fcfe7e06b3b4.png">
+
+
+#### Success simple
+```yaml
+  <Alert type="success" subType="simple" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228546564-32bcc096-e4cb-42ac-bcef-62eea6c26a47.png">
+
+
+#### Error default
+```yaml
+  <Alert type="error" subType="default" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228548328-510591b6-3fea-4be5-80ff-8da26e949680.png">
+
+
+#### Error with description
+```yaml
+  <Alert type="error" subType="withDescription" title="title" description="description" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228547435-5cfdd0c9-6e83-40fb-8ecb-038aeba39c22.png">
+
+
+#### Error simple
+```yaml
+  <Alert type="error" subType="simple" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228546795-6bde120e-4449-4f2f-8d20-f1345b0b4144.png">
+
+
+#### Warning default
+```yaml
+  <Alert type="warning" subType="default" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228548551-2ea60ab8-43d8-4112-b8b9-f9ef41239b6e.png">
+
+
+#### Warning with description
+```yaml
+  <Alert type="warning" subType="withDescription" title="title" description="description" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228547171-9424779d-5cbe-4872-8741-512f7f6942bc.png">
+
+
+#### Warning simple
+```yaml
+  <Alert type="warning" subType="simple" title="title" />
+```
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/96983515/228546916-7c7048a2-6e51-43d0-a4a6-24363ca5d5e6.png">
 
 ### Avatar
 
@@ -601,7 +703,7 @@ You may choose a preferable option:
   onMouseOut?: (e: MouseEvent<HTMLDivElement>) => void
 ```
 
-example: 
+example:
 
 #### A default image will be displayed with the image (the type should be a picture):
 ```yaml
@@ -760,10 +862,84 @@ This is the main component to build any other components
   boxSizing?: string - box-sizing (css)
 ````
 
-example: 
+example:
 ````yaml
   <Box alignItems="start" directionFlex="column" margin="0 10px 0 0"></Box>
 ````
+
+### Breadcrumbs
+
+Breadcrumbs are the navigation chain on the site, which reflects the path to the current page. They’re important for usability and navigation: users always can see their current location on the website and get to the needed page by clicking items in the chain.
+
+Breadcrumbs may be styled with a chevron or slash. The last breadcrumb keeps interactive.
+
+This component generate breadcrumbs based on react-router-dom (automatically)
+
+```yaml
+  targetIndex?: number - index of name what you want customize string
+  breadcrumbName?: string - custom name of the index
+  isSlash?: boolean
+```
+
+example:
+```yaml
+<Breadcrumbs targetIndex={2} breadcrumbName="customName" />
+```
+
+#### Collapse
+
+Show titles and texts appropriately by toggling the visibility of content in your project with a few classes.
+
+```yaml
+  collapseArray: CollapseItemArrType[]
+  borderColor?: colorsType - css
+  chevronIconEnd?: boolean - display chevron on right side (default is left)
+  margin?: string - css
+  isChevron?: boolean - display or not chevron
+  padding?: string - css
+```
+
+collapseArray should be like that:
+
+```yaml
+  CollapseItemArrType = {
+    title(title of item): string
+    description(description of item): string
+    id: number
+  }
+```
+
+example:
+```yaml
+const CollapseUi = () => {
+  const collapseObj = [
+    {
+      title: 'title1',
+      description: 'description1',
+      id: 1,
+    },
+    {
+      title: 'title2',
+      description: 'description2',
+      id: 2,
+    },
+    {
+      title: 'title3',
+      description: 'description3',
+      id: 3,
+    },
+  ]
+
+  return (
+    <Box directionFlex="column" margin="10px 0">
+      <Collapse collapseArray={collapseObj} />
+
+      <Collapse borderColor="white100" collapseArray={collapseObj} />
+    </Box>
+  )
+}
+```
+<img width="422" alt="image" src="https://user-images.githubusercontent.com/96983515/228804789-35e2ee1f-e56d-4fb2-aad0-d7f2e9f1621a.png">
 
 ### Buttons
 
@@ -806,7 +982,26 @@ You have base component ButtonBase.tsx. Every button extends from that component
   shadow?: string - box-shadow (css)
 ````
 
-Available only one button in promo:
+There are 5 types of buttons:
+
+````yaml
+  <PrimaryButton styleType='m'>Primary button</PrimaryButton>
+````
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/96983515/228804958-ff6a9efd-6386-4021-89b0-bc320b30e1f5.png">
+````yaml
+  <GhostButton styleType='m'>Primary button</PrimaryButton>
+````
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/96983515/228805179-ec2cb47c-8179-47af-af19-561a4a0f55c8.png">
+
+````yaml
+  <OutlineButton styleType='m'>Primary button</PrimaryButton>
+````
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/96983515/228805355-c0a3a9da-a12c-464d-884c-ae87fe906039.png">
+
+````yaml
+  <SecondaryButton styleType='m'>Primary button</PrimaryButton>
+````
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/96983515/228805010-f457605a-3fc7-4c02-9a09-461502435f4d.png">
 
 ````yaml
   <TertiaryButton styleType='m'>Primary button</PrimaryButton>
@@ -853,7 +1048,120 @@ default style object:
     },
 ````
 
-### Input 
+### Checkbox
+
+A graphic UI element that allows the user to control a two-state option, enabled and disabled. When enabled, a checkmark is displayed inside the checkbox. Traditionally, the flag has a square shape.
+
+```yaml
+  label(checkbox text): string
+  isChecked(value from useState): boolean
+  setIsChecked(set from useState): Dispatch<SetStateAction<boolean>>
+  bgChecked?: string - provide color if you want to change checkbox background
+```
+
+example:
+```yaml
+ const CheckRadioToggle = () => {
+  const [value2, setValue2] = useState(false)
+
+  return (
+    <Checkbox label={'Checkbox'} isChecked={value2} setIsChecked={setValue2} />
+  )}
+```
+<img width="98" alt="image" src="https://user-images.githubusercontent.com/96983515/228805535-b3e5017c-31fb-4e59-a575-bd95124c70b7.png">
+
+### Dropdown
+
+The dropdown allows the user to choose one of the existing options. It is usually used for navigation or forms. Depending on the location and property, it may be designed in different ways.
+
+TheSprklDropDown has named constructors with predefined size parameters. Button size controls by text size and padding:
+
+> XL horizontal: 24, vertical: 16
+> L horizontal: 20, vertical: 12
+> M horizontal: 16, vertical: 8
+> S horizontal: 12, vertical: 6
+
+Props:
+```yaml
+  type(type of dropdown button): 'primary' | 'secondary' | 'tertiary' | 'ghost' | 'outline'
+  subtype(size of dropdown button): 'l' | 'm' | 's' | 'xs'
+  width?(the width of button and dropdown): string (auto)
+  margin?(button margin): string (0px)
+  disabled?(disable the dropdown): boolean (false)
+  onChange(setFunction from useState): (option: string) => void
+  activeValue(value from useState): number | string
+  top(if parent is relative, you can set the top position of the whole dropdown component)?: string (0px)
+  right(if parent is relative, you can set the top position of the whole dropdown component)?: string (0px)
+  position(set the position of whole dropdown component)?: string (relative)
+  optionList(array of values in the dropdown): string[] | number[]
+```
+
+example:
+```yaml
+const CollapseUi = () => {
+  const [value, setValue] = useState('hello')
+  const collapseArray = ['hello', 'world', 'one', 'two']
+
+  const typeArr = ['primary', 'secondary', 'tertiary', 'ghost', 'outline']
+
+  const size = ['l', 'm', 's', 'xs'] 
+
+  return (
+          <Dropdown
+          subtype={size[0]}
+          width="300px"
+          type={item[0]}
+          activeValue={value}
+          optionList={collapseArray}
+          onChange={setValue}
+          />
+  )
+}
+```
+<img width="1578" alt="image" src="https://user-images.githubusercontent.com/96983515/228806389-79a354b4-62d5-47f2-ae43-0dce81abfb45.png">
+
+### Radio
+
+#### RadioGroup
+Props:
+```yaml
+  name(name of radio inputs): string ('')
+  selectedValue(value from useState): string ('')
+  onClickRadioButton(action onClick on button): (value: string) => void
+  children(Radio components): ReactElement<PropsRadioType>[]
+```
+#### Radio
+Props:
+```yaml
+labelText(text to the left of the button)?: string ('')
+value(input value)?: string ('')
+onChange(internal function. Look RadioGroup. Do not provide any func)?: () => void
+name(input name. Do not provide)?: string ('')
+checked(input checked. Do not provide)?: boolean (false)
+```
+
+example:
+```yaml
+const CheckRadioToggle = () => {
+  const [value3, setValue3] = useState('two')
+
+  return (
+          <RadioGroup
+          name="RadioGroup1"
+          selectedValue={value3}
+          onClickRadioButton={value => {
+          setValue3(value)
+          }}
+          >
+          <Radio value="one" labelText="one" />
+          <Radio value="two" labelText="two" />
+          </RadioGroup>
+  )
+}
+```
+<img width="94" alt="image" src="https://user-images.githubusercontent.com/96983515/228806567-c0025610-7698-43b2-b4d1-fa5de011d354.png">
+
+### Input
 
 ```yaml
   inputType(size): 'l' | 'm' | 's' 
@@ -876,6 +1184,243 @@ example
 <Input width="500px" inputType="l" labelText="labelText" helperText="helperText" isError={true}/>
 ```
 <img width="1548" alt="image" src="https://user-images.githubusercontent.com/96983515/228806648-c937686c-6ee8-40f3-be0f-8b1e82a5b1c5.png">
+
+### List
+
+```yaml
+  type: 'ordered' | 'unordered' | 'custom'
+  children: JSX.Element[]
+  margin?: string
+```
+
+```yaml
+   <List type="ordered">
+   <BodyText type="m">
+   Text
+   </BodyText>
+   <BodyText type="m">
+   Text
+   </BodyText>
+   </List>
+```
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/96983515/228806721-7d7a781a-83b7-4cd0-aac3-6efad37ba7e6.png">
+
+### Stepper
+
+```yaml
+  type(type of Stepper): 'horizontal' | 'vertical'
+  isTextType(text type Stepper)?: boolean (false)
+  isNumeric(numeric type Stepper)?: boolean (false)
+  stepLength(cont of steps): number
+  activeIndex(value from useState): number
+  height(height of wrapper box)?: string (300px)
+  width(height of wrapper box)?: string (100%)
+  onClick(action onClick on step): (currentStep: any) => void
+  stepName(array of names of the steps)?: string[]
+```
+
+```yaml
+  const StepperUi = () => {
+  const [step, setStep] = useState(0)
+
+  const stepName = ['one', 'two', 'three', 'four']
+
+  const func = currentStep => setStep(currentStep)
+
+  return (
+    <>
+      <Box>
+        <Stepper stepName={stepName} type="vertical" stepLength={4} activeIndex={step} onClick={func} isNumeric />
+        <Stepper stepName={stepName} type="vertical" stepLength={4} activeIndex={step} onClick={func} />
+        <Stepper type="vertical" stepName={stepName} isTextType stepLength={4} activeIndex={step} onClick={func} />
+      </Box>
+
+      <Stepper type="horizontal" stepLength={4} activeIndex={step} onClick={func} isNumeric />
+      <Stepper type="horizontal" stepLength={4} activeIndex={step} onClick={func} />
+      <Stepper type="horizontal" stepName={stepName} isTextType stepLength={4} activeIndex={step} onClick={func} />
+    </>
+  )
+}
+```
+
+#### Vertical numeric
+```yaml
+<Stepper stepName={stepName} type="vertical" stepLength={4} activeIndex={step} onClick={func} isNumeric />
+```
+<img width="216" alt="image" src="https://user-images.githubusercontent.com/96983515/228806872-f22087ac-a376-41f0-8ab4-d3be4e3c5687.png">
+
+#### Vertical circular
+```yaml
+<Stepper stepName={stepName} type="vertical" stepLength={4} activeIndex={step} onClick={func} />
+```
+<img width="216" alt="image" src="https://user-images.githubusercontent.com/96983515/228806938-f8ec9362-7827-4ba1-bee0-59f7876e7cac.png">
+
+#### Vertical text
+```yaml
+<Stepper type="vertical" stepName={stepName} isTextType stepLength={4} activeIndex={step} onClick={func} />
+```
+<img width="216" alt="image" src="https://user-images.githubusercontent.com/96983515/228806992-3e8b71fd-5d95-4c6c-8b41-813ab9b6df74.png">
+
+#### Horizontal numeric
+```yaml
+<Stepper type="horizontal" stepLength={4} activeIndex={step} onClick={func} isNumeric />
+```
+<img width="1728" alt="image" src="https://user-images.githubusercontent.com/96983515/228807068-c35d2660-e08d-449c-af48-8498506fd961.png">
+
+#### Horizontal circular
+```yaml
+<Stepper type="horizontal" stepLength={4} activeIndex={step} onClick={func} />
+```
+<img width="1728" alt="image" src="https://user-images.githubusercontent.com/96983515/228807122-5bfcdfe6-e572-4ba4-b676-63d579db4429.png">
+
+#### Horizontal text
+```yaml
+<Stepper type="horizontal" stepName={stepName} isTextType stepLength={4} activeIndex={step} onClick={func} />
+```
+<img width="1728" alt="image" src="https://user-images.githubusercontent.com/96983515/228807168-347a45ea-dfeb-457b-8ef4-d8703a1666fa.png">
+
+### Tabs
+
+```yaml
+type(type of tab): 'horizontal' | 'vertical'
+activeIndex: number
+height(height of wrapper box)?: string (not set)
+width(height of wrapper box)?: string (100%)
+onClick(action onClick on step): (currentStep: any) => void
+namesArr(array of tab names): JSX.Element[]
+activeColor?(active tab color text): string
+```
+
+
+```yaml
+const TabsUi = () => {
+  const [step, setStep] = useState(0)
+
+  const stepName = [
+    <LabelText key="one" color="current" type="m">
+      one
+    </LabelText>,
+    <LabelText key="two" color="current" type="m">
+      two
+    </LabelText>,
+    <LabelText key="three" color="current" type="m">
+      three
+    </LabelText>,
+    <LabelText key="four" color="current" type="m">
+      four
+    </LabelText>,
+  ]
+
+  const func = currentStep => setStep(currentStep)
+
+  return (
+    <>
+      <Tabs width="800px" type="horizontal" activeIndex={step} onClick={func} namesArr={stepName} />
+
+      <Tabs width="200px" type="vertical" activeIndex={step} onClick={func} namesArr={stepName} />
+    </>
+  )
+}
+```
+
+#### Horizontal
+````yaml
+<Tabs width="800px" type="horizontal" activeIndex={step} onClick={func} namesArr={stepName} />
+````
+<img width="819" alt="image" src="https://user-images.githubusercontent.com/96983515/228808682-db7906f9-d330-4f15-8f0b-220fefffac2d.png">
+
+#### Vertical
+```yaml
+<Tabs width="200px" type="vertical" activeIndex={step} onClick={func} namesArr={stepName} />
+```
+<img width="286" alt="image" src="https://user-images.githubusercontent.com/96983515/228808730-e0ecba4d-3eeb-4ac4-b033-d85f0981980a.png">
+
+### Tag
+
+```yaml
+  children: string
+  type: 'primary' | 'secondary' | 'tertiary' | 'ghost' | 'outline' | 'default'
+  size: 's' | 'm' | 'l'
+  margin?: string
+  backgroundColor?: string
+```
+
+```yaml
+const TagsUi = () => {
+  const type = ['primary', 'secondary', 'tertiary', 'ghost', 'outline', 'default'] as any
+  const size = ['s', 'm', 'l'] as any
+
+  return (
+    <Box padding="10px" background="neutrals600" alignItems="center">
+      {type.map(item => (
+        <Fragment key={item}>
+          {size.map(sizeItem => (
+            <Tags type={item} key={sizeItem} size={sizeItem} margin="5px">
+              {item + ' ' + sizeItem}
+            </Tags>
+          ))}
+        </Fragment>
+      ))}
+    </Box>
+  )
+}
+```
+<img width="1526" alt="image" src="https://user-images.githubusercontent.com/96983515/228808876-4a1a7dd1-4c74-4598-ab2f-0e9fb4ba4c32.png">
+
+### Toggle
+
+```yaml
+  name: string
+  checked: string | boolean
+  disabled?: boolean
+  mobile?: boolean - mobile version
+  onChange?: () => void
+```
+
+```yaml
+const CheckRadioToggle = () => {
+  const [value1, setValue1] = useState(false)
+
+  return (
+      <Toggle name="Toggle" checked={value1} onChange={() => setValue1(p => !p)} />
+  )
+}
+```
+<img width="50" alt="image" src="https://user-images.githubusercontent.com/96983515/228808975-512cb4d5-9b1c-4afd-81dd-e2d7423bc794.png">
+
+### Tooltip
+
+```yaml
+  type: 'top' | 'right' | 'left' | 'bottom'
+  width?: string
+  children: string
+  topPos?: string
+  botPos?: string
+```
+
+```yaml
+const TooltipUi = () => {
+  const typeArr = [
+    { type: 'top', botPos: '-155px' },
+    { type: 'right' },
+    { type: 'left' },
+    { type: 'bottom', topPos: '-176px' },
+  ] as any[]
+
+  return (
+    <Box margin="10px 0" alignItems="center" justifyContent="center" width="100%">
+      <Box padding="5px" position="relative" width="300px" height="300px" background="red">
+        {typeArr.map(({ type, topPos, botPos }) => (
+          <Tooltip botPos={botPos} topPos={topPos} key={type} type={type}>
+            {`Hello. How are you? I hope you are good ${type}`}
+          </Tooltip>
+        ))}
+      </Box>
+    </Box>
+  )
+}
+```
+<img width="626" alt="image" src="https://user-images.githubusercontent.com/96983515/228809259-8f02a5ec-c36e-48f4-993e-c5010345879a.png">
 
 ### Typography
 
@@ -900,7 +1445,7 @@ You have base component TextBase.tsx. Every text extends from that component. Th
   overflow?: 'scroll' | 'hidden' | 'auto' | 'visible' | string - css
  ````
 
-There are 3 types of text in promo:
+There are 4 types of text:
 
 ````yaml
   <BodyText type='m'>Body Text</BodyText>
@@ -929,15 +1474,23 @@ possible types of LabelText:
   type: 'm' | 's' | string  - required property
 ````
 
+````yaml
+  <SupportText type='m'>Support Text</SupportText>
+````
+<img width="297" alt="image" src="https://user-images.githubusercontent.com/96983515/228879093-d7c44083-b91c-4cf9-852e-5b76737138c1.png">
+possible types of SupportText:
+````yaml
+  type: 'quote' | 'overline' | 'caption'  - required property
+````
 
 default style object:
 ````yaml
     bodyText: {
-      l: 'font-size: 1.25rem; line-height: 1.2;',
-      m: 'font-size: 1rem;',
-      s: 'font-size: 0.875rem; letter-spacing: 0rem;',
-      ...bodyTextStyles,
-    },
+  l: 'font-size: 1.25rem; line-height: 1.2;',
+  m: 'font-size: 1rem;',
+  s: 'font-size: 0.875rem; letter-spacing: 0rem;',
+                ...bodyTextStyles,
+},
     headlineText: {
       l: 'font-size: 3.5rem; letter-spacing: -0.125rem; line-height: 1.1;',
       xl: 'font-size: 3rem; letter-spacing: -0.08125rem; line-height: 1.1;',
@@ -945,7 +1498,7 @@ default style object:
       s: 'font-size: 1.75rem; letter-spacing: -0.025rem;',
       xs: 'font-size: 1.5rem; letter-spacing: -0.015rem;',
       xxs: 'font-size: 1.25rem; letter-spacing: -0.015rem;',
-      ...headlineTextStyles,
+                    ...headlineTextStyles,
     },
     labelText: { m: 'font-size: 1rem;', s: 'font-size: 0.875rem;', ...labelTextStyle },
     supportText: {
@@ -955,7 +1508,7 @@ default style object:
               'font-family: IBM Plex Sans; font-style: normal; font-weight: 700; font-size: 14px; line-height: 16px; text-transform: uppercase',
       caption:
               'font-family: Inter; font-style: normal; font-weight: 500; font-size: 14px; line-height: 16px; letter-spacing: -0.24px',
-      ...supportTextStyle,
+                   ...supportTextStyle,
     },
 ````
 
