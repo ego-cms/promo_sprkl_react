@@ -1,9 +1,15 @@
 /* eslint-disable react/display-name */
 
 /* ******************************************************** */
-/* 2023 © TheSprkl for React v.1.0 (www.thesprkl.io)      */
+/* 2023 © TheSprkl for React PROMO (www.thesprkl.io)      */
 /* is a proprietary product developed by                    */
 /* EGO Creative Innovations Limited (www.ego-cms.com)       */
+/* This is a reduced demo version of TheSprkl, the rights   */
+/* and terms of use of which are governed by a separate     */
+/* commercial license.                                      */
+/*                                                          */
+/* This promo version is fully functional but contains a    */
+/* limited number of items.                                 */
 /*                                                          */
 /* EULA https://www.thesprkl.io/legal/eula                  */
 /* Support https://www.thesprkl.io/contact-us               */
